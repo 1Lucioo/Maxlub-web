@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>BrugerExpress | Gourmet Burgers</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav>
+        <div class="logo">
+            <h1>Bruger<span>Express</span></h1>
+        </div>
+        <ul>
+            <li><a href="#historia">Historia</a></li>
+            <li><a href="#menu">Menú</a></li>
+            <li><a href="#ingredientes">Ingredientes</a></li>
+            <li><a href="#testimonios">Testimonios</a></li>
+            <li><a href="#reservas">Reservas</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- HERO -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>BrugerExpress</h1>
+            <p>Donde cada hamburguesa es una experiencia gourmet inolvidable.</p>
+            <a href="#reservas" class="btn">Reservar Mesa</a>
+        </div>
+    </header>
+
+    <!-- HISTORIA -->
+    <section class="historia" id="historia">
+        <h2>Nuestra Historia</h2>
+        <p>
+            BrugerExpress nació hace más de 10 años con la visión de revolucionar la hamburguesa tradicional. 
+            Lo que comenzó como un pequeño local en el corazón de la ciudad, con recetas familiares, se convirtió
+            en un referente de la gastronomía urbana gourmet. Cada ingrediente es cuidadosamente seleccionado: 
+            carne 100% premium, panes artesanales y vegetales frescos. Nuestro objetivo no es solo alimentar, 
+            sino crear una experiencia completa: sabor, aroma, presentación y ambiente. Cada hamburguesa cuenta 
+            una historia y busca que cada bocado se convierta en un momento inolvidable.  
+            Hoy, BrugerExpress es sinónimo de calidad, innovación y placer culinario.
+        </p>
+    </section>
+
+    <!-- GALERÍA DE HAMBURGUESAS -->
+    <section class="menu" id="menu">
+        <h2>Nuestras Especialidades</h2>
+        <div class="menu-container">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=700&q=80" alt="Classic Royal">
+                <h3>Classic Royal</h3>
+                <p>Carne Angus, queso cheddar, lechuga fresca y pan brioche dorado.</p>
+                <span class="precio">$12.99</span>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1550317138-10000687a72b?auto=format&fit=crop&w=700&q=80" alt="BBQ Bacon">
+                <h3>BBQ Bacon</h3>
+                <p>Doble carne, bacon crujiente y salsa BBQ artesanal.</p>
+                <span class="precio">$14.99</span>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1596662951482-0c4ba74a6df6?auto=format&fit=crop&w=700&q=80" alt="Double Cheese">
+                <h3>Double Cheese</h3>
+                <p>Doble queso cheddar fundido y carne 100% premium.</p>
+                <span class="precio">$13.99</span>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1606755962773-d324e0a13086?auto=format&fit=crop&w=700&q=80" alt="Spicy Jalapeño">
+                <h3>Spicy Jalapeño</h3>
+                <p>Jalapeños frescos, queso pepper jack y salsa especial picante.</p>
+                <span class="precio">$15.99</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- INGREDIENTES -->
+    <section class="ingredientes" id="ingredientes">
+        <h2>Nuestros Ingredientes</h2>
+        <div class="ingredientes-grid">
+            <div class="ingrediente-card">
+                <h3>Carne Premium</h3>
+                <p>100% Angus seleccionada a mano, fresca y jugosa.</p>
+            </div>
+            <div class="ingrediente-card">
+                <h3>Quesos Gourmet</h3>
+                <p>Cheddar, Suizo y Pepper Jack para cada estilo de hamburguesa.</p>
+            </div>
+            <div class="ingrediente-card">
+                <h3>Pan Artesanal</h3>
+                <p>Panes dorados, suaves y recién horneados cada día.</p>
+            </div>
+            <div class="ingrediente-card">
+                <h3>Vegetales Frescos</h3>
+                <p>Lechuga, tomate y pepinillos recién cortados y de calidad premium.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIOS -->
+    <section class="testimonios" id="testimonios">
+        <h2>Lo que dicen nuestros clientes</h2>
+        <div class="testimonios-grid">
+            <div class="testimonio-card">
+                <p>"La mejor hamburguesa que he probado en mi vida. Sabor inigualable y ambiente increíble."</p>
+                <span>- Ana R.</span>
+            </div>
+            <div class="testimonio-card">
+                <p>"Un lugar premium con un servicio espectacular. Cada visita es una experiencia gourmet."</p>
+                <span>- Carlos M.</span>
+            </div>
+            <div class="testimonio-card">
+                <p>"Recomiendo el BBQ Bacon, simplemente increíble. Volveré seguro."</p>
+                <span>- Lucía P.</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- RESERVAS -->
+    <section class="reservas" id="reservas">
+        <h2>Reservar Mesa</h2>
+        <form>
+            <input type="text" placeholder="Nombre completo" required>
+            <input type="email" placeholder="Correo electrónico" required>
+            <input type="tel" placeholder="Teléfono" required>
+            <input type="date" required>
+            <button type="submit">Confirmar Reservación</button>
+        </form>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="contacto" id="contacto">
+        <h2>Contacto</h2>
+        <p><strong>Dirección:</strong> Av. Gourmet 123, Ciudad Premium</p>
+        <p><strong>Teléfono:</strong> +34 600 123 456</p>
+        <p><strong>Email:</strong> contacto@brugerexpress.com</p>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 BrugerExpress. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
